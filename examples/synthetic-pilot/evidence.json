@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "title": "从计划到效果：如何避免把历史目标写成成果",
+  "material_mode": "synthetic-demo",
+  "as_of": "2026-11-03",
+  "scope_note": "仅覆盖本目录四份完全合成的短文本及其版本关系。所有项目、日期、数量和效率数字均为虚构；只测试资料到知识产品的追溯流程。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "合成材料：项目 X 协作记录计划",
+      "path": "sources/2018-plan.md",
+      "sha256": "de05e2a7aaf7cf6a774aa6e8b0c957d8e0ee5defb983e00539bdd34ebd11793d",
+      "document_date": "2018-06-01",
+      "event_date": "unknown",
+      "version": "v1",
+      "access": "synthetic",
+      "reuse_basis": "synthetic",
+      "rights_note": "本仓库专为流程测试生成的原创合成文本，不含真实客户、人员或项目资料。",
+      "coverage": "完整读取原生文本全部 6 行；没有附件或图表。事件仅标明为 2018 年规划，没有单一事件日期。",
+      "creator": "本仓库合成示例；项目 X 为虚构主体",
+      "source_type": "规划"
+    },
+    {
+      "id": "S02",
+      "title": "合成材料：项目 X 阶段简报",
+      "path": "sources/2020-summary-v1.md",
+      "sha256": "1b0c4bf3f25edd026421f6d2a37882fc349bf12b1dee20fac5737ab25ca46390",
+      "document_date": "2020-02-10",
+      "event_date": "unknown",
+      "version": "v1",
+      "access": "synthetic",
+      "reuse_basis": "synthetic",
+      "rights_note": "本仓库专为流程测试生成的原创合成文本，不含真实客户、人员或项目资料。",
+      "coverage": "完整读取原生文本全部 5 行；没有附件或图表。 事件涉及 2019 年，未给定单一事件日期。",
+      "creator": "本仓库合成示例；项目 X 为虚构主体",
+      "source_type": "阶段简报"
+    },
+    {
+      "id": "S03",
+      "title": "合成材料：项目 X 试用登记摘记",
+      "path": "sources/2020-register.md",
+      "sha256": "c341c3326031e16764e5c6e0ad1517c4aae05e2619831b95fd53fc498a439bd0",
+      "document_date": "2020-02-12",
+      "event_date": "unknown",
+      "version": "v1",
+      "access": "synthetic",
+      "reuse_basis": "synthetic",
+      "rights_note": "本仓库专为流程测试生成的原创合成文本，不含真实客户、人员或项目资料。",
+      "coverage": "完整读取原生文本全部 6 行；没有附件或图表。登记的事件区间为 2019-10-01 至 2019-12-31，不压缩成单一日期。",
+      "creator": "本仓库合成示例；项目 X 为虚构主体",
+      "source_type": "登记记录"
+    },
+    {
+      "id": "S04",
+      "title": "合成材料：项目 X 阶段简报修订说明",
+      "path": "sources/2021-summary-v2.md",
+      "sha256": "64fe1de429d166a2b106759ab154eebaff7ab82b5bc2e19b6f5ac27fcb8f6c27",
+      "document_date": "2021-03-05",
+      "event_date": "2021-03-05",
+      "version": "v2",
+      "access": "synthetic",
+      "reuse_basis": "synthetic",
+      "rights_note": "本仓库专为流程测试生成的原创合成文本，不含真实客户、人员或项目资料。",
+      "coverage": "完整读取原生文本全部 7 行；没有附件或图表。",
+      "supersedes": [
+        "S02"
+      ],
+      "creator": "本仓库合成示例；项目 X 为虚构主体",
+      "source_type": "修订说明"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "text": "2018 年计划提出统一任务登记表，并以平均交接耗时降低 20% 为目标。",
+      "kind": "historical-plan",
+      "publication": "ready",
+      "limits": "这是计划目标；材料没有定义基线、样本和测量方法，不能写成已实现的降幅。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "start_line": 4,
+          "end_line": 6,
+          "quote": "计划在下一年度试用统一任务登记表，以减少跨项目交接遗漏。\n提出的目标是将平均交接耗时降低 20%；尚未定义基线、样本或测量方法。\n该文件是计划，不包含实施、验收或效果记录。",
+          "relation": "supports"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "text": "2019 年第四季度的登记摘记列出八项任务，其中五项带有完成签记。",
+      "kind": "documented-observation",
+      "publication": "ready",
+      "limits": "只说明这一份登记材料中的状态，不等于独立验收；另外三项无签记不代表未完成，未登记任务数量未知。",
+      "citations": [
+        {
+          "source_id": "S03",
+          "start_line": 3,
+          "end_line": 6,
+          "quote": "文档日期：2020-02-12；记录范围为 2019-10-01 至 2019-12-31。\n登记表共列出八项任务，其中五项带有完成签记，三项没有完成签记。\n登记未包含交接工时、成本、客户验收或经营收入。\n没有完成签记不代表任务一定未完成；本表也不能说明未登记任务的情况。",
+          "relation": "supports"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "text": "“十项任务已经完成、效率提升 30%”是旧简报中的未核实表述，修订版已撤回效率结论。",
+      "kind": "unverified",
+      "publication": "ready",
+      "limits": "旧简报所述全年试用与第四季度登记的范围未对齐；其他任务明细未找到，且无效率测量依据。不得将这个数字当作实际效果。",
+      "citations": [
+        {
+          "source_id": "S02",
+          "start_line": 4,
+          "end_line": 5,
+          "quote": "简报称：十个任务已经完成，协作效率提升 30%。\n本稿未附任务明细、耗时基线、计算公式或验收凭据。",
+          "relation": "context"
+        },
+        {
+          "source_id": "S03",
+          "start_line": 4,
+          "end_line": 6,
+          "quote": "登记表共列出八项任务，其中五项带有完成签记，三项没有完成签记。\n登记未包含交接工时、成本、客户验收或经营收入。\n没有完成签记不代表任务一定未完成；本表也不能说明未登记任务的情况。",
+          "relation": "context"
+        },
+        {
+          "source_id": "S04",
+          "start_line": 4,
+          "end_line": 6,
+          "quote": "本修订替代 v1 对完成数量和效率的表述；保留 v1 供版本追溯。\n现有登记只能支持八项任务中五项有完成签记；简报所称十项的其他明细未找到。\n由于没有基线和测量记录，撤回“协作效率提升 30%”的结果表述，效果仍待核实。",
+          "relation": "supports"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "text": "这组材料支持区分“计划目标、登记状态、效果判断”，但不足以证明统一登记提高了协作效率。",
+      "kind": "interpretation",
+      "publication": "ready",
+      "limits": "这是基于当前四份合成材料的解释；不能推断其他材料不存在，也不能从记录状态建立因果关系。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "start_line": 5,
+          "end_line": 6,
+          "quote": "提出的目标是将平均交接耗时降低 20%；尚未定义基线、样本或测量方法。\n该文件是计划，不包含实施、验收或效果记录。",
+          "relation": "context"
+        },
+        {
+          "source_id": "S03",
+          "start_line": 4,
+          "end_line": 6,
+          "quote": "登记表共列出八项任务，其中五项带有完成签记，三项没有完成签记。\n登记未包含交接工时、成本、客户验收或经营收入。\n没有完成签记不代表任务一定未完成；本表也不能说明未登记任务的情况。",
+          "relation": "context"
+        },
+        {
+          "source_id": "S04",
+          "start_line": 5,
+          "end_line": 6,
+          "quote": "现有登记只能支持八项任务中五项有完成签记；简报所称十项的其他明细未找到。\n由于没有基线和测量记录，撤回“协作效率提升 30%”的结果表述，效果仍待核实。",
+          "relation": "supports"
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "text": "可将下一轮检验设计为先定义交接耗时和遗漏口径，再记录任务复杂度并做同口径比较。",
+      "kind": "hypothesis",
+      "publication": "ready",
+      "limits": "这是待执行的测量建议。需检查样本、对照、实施差异及替代解释，不能预先保证改善或因果识别。",
+      "citations": [
+        {
+          "source_id": "S04",
+          "start_line": 7,
+          "end_line": 7,
+          "quote": "下一轮拟记录每次交接的起止时间、任务复杂度与遗漏次数，并预先约定比较口径。",
+          "relation": "context"
+        }
+      ]
+    }
+  ]
+}
