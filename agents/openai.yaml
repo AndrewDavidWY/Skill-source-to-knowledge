@@ -1,0 +1,4 @@
+interface:
+  display_name: "历史资料转化为可追溯知识产品"
+  short_description: "梳理历史资料、版本与证据边界，形成可复核的专题文章、课程或书稿"
+  default_prompt: "用 $source-to-knowledge 梳理这批历史资料的来源与版本，区分计划、记录、推论和待证事项，制作一份可追溯专题样稿。"
